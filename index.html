@@ -1,1 +1,35 @@
-It's pronounced 'Jumbo.'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .scaling-text {
+            /* This is the magic line: 8% of the viewport width */
+            font-size: 8vw; 
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scaling-text">
+        It's pronounced 'Jumbo.'
+    </div>
+
+</body>
+</html>
